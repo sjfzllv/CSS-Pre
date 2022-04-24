@@ -1,0 +1,11 @@
+$color: #f3e1e1;
+
+body {
+    $color1: red !global;
+    background-color: $color;
+    color: $color;
+}
+
+#app {
+    color: $color1;
+}

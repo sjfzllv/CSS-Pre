@@ -1,0 +1,45 @@
+// .juzhong {
+.juzhong(@w: 10px, @h: 10px, @c: pink) {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: @c;
+    height: @h;
+    width: @w;
+}
+
+#wrap {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+    margin: 0 auto;
+
+    .inner {
+        .juzhong(100px, 100px, pink);
+    }
+
+    .inner2 {
+        // .juzhong();
+        .juzhong(@c: black);
+    }
+}
+
+// .triangle(@w, @c) {
+//     width: 0;
+//     height: 0;
+//     border-width: @w;
+//     border-style: dashed solid dashed dashed;
+//     border-color: transparent transparent transparent @c;
+//     overflow: hidden;
+// }
+
+@import "./3triangle.less";
+
+#wrap .sjx {
+    // .triange();
+    .triangle(L, 40px, black);
+}

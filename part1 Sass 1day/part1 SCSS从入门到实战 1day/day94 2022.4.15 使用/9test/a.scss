@@ -1,0 +1,9 @@
+$name1: "wang";
+$name2: 'li';
+$name3: zhang;
+
+body {
+    color: $name1;
+    background-color: $name2;
+    font-size: $name3;
+}

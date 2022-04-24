@@ -1,0 +1,18 @@
+// $color: 1;
+$color: 5;
+
+p {
+
+    // @if $color !=0 {
+    @if $color==0 {
+        color: blue;
+    }
+
+    @else if $color==1 {
+        color: red;
+    }
+
+    @else {
+        color: yellow;
+    }
+}

@@ -1,0 +1,6 @@
+$size: 9px;
+
+.file {
+    @debug $size;
+    // border: $size;
+}

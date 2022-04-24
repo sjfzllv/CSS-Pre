@@ -1,0 +1,9 @@
+// $num4: 2px * 2px;
+$num5: 2px%2px;
+$num6: 2px % 2px;
+
+body {
+    // height: $num4;
+    width: $num5;
+    height: $num6;
+}

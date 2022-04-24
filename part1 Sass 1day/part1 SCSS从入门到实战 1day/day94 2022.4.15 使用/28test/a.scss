@@ -1,0 +1,26 @@
+// .a {
+// %a {
+//     color: red;
+// }
+
+// .b {
+//     // color: red;
+//     // @extend .a;
+//     @extend %a;
+//     background-color: green;
+// }
+
+// .c {
+//     // @extend .a;
+//     @extend .b;
+// }
+
+#context a%extreme {
+    color: blue;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.notice {
+    @extend %extreme;
+}

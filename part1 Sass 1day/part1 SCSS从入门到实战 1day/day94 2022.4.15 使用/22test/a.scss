@@ -1,0 +1,11 @@
+button {
+    background-color: red;
+
+    &:hover {
+        background-color: green;
+    }
+}
+
+// button:hover {
+//     background-color: green;
+// }
